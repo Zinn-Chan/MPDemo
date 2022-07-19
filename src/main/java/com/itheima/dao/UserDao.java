@@ -8,4 +8,5 @@ import org.apache.ibatis.annotations.Mapper;
 public interface UserDao extends BaseMapper<User> {
   Boolean f();
   Boolean f2();
+  Boolean f3();
 }
